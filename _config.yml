@@ -1,0 +1,5 @@
+name: Dvarim
+safe: true
+lsi: false
+markdown: redcarpet
+pygments: true
