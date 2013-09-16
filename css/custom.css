@@ -5,3 +5,8 @@
 .footer_right {
     float: right;
 }
+
+#disqus_thread {
+    border: 1px black solid;
+    padding: 15px 15px 15px 15px;
+}
