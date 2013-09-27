@@ -1,1 +1,4 @@
 _site/
+
+# Emacs temp files
+*~
