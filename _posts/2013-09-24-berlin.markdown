@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Ich bin ein Berliner"
+date:   2013-09-24 03:00:00
+categories: travel berlin
+image_url: /assets/2013-09-24
+---
+
+Berlin is an incredible city, made all the better by the incredible friendships I've experienced here. When I first got here, I was having a bit of a hard time. I've been gone from home for a long time and since I'm an extrovert, being alone for a while can be tough. I missed the loving company of my friends and family back home.
+
+Enter Katherine, wonderful Room 13-er and loving friend. We spent Wednesday visitng the Stasi museum (old headquarters for the East German secret police) and wandering around Berlin. We finished the day with a study party at a coffee shop and some tasty dessert. It was fantastic to get to spend time with someone I care about and I went to bed much happier than the previous day.
+
+![Katherine Currywurst]({{ page.image_url }}/katherine_currywurst.jpg)
+
+However, on Thursday, between visiting a concentration camp museum and carrying my whole backpack around all day, the sadness came back. I perked myself up with Chai and Game of Thrones...
+
+Friday, I went on a tour of Berlin, where my visit took a dramatic turn for the better because it was on this tour that I met Mecca and Jessie! Both Mecca and Jessie were also traveling alone in Berlin and we instantly hit it off. We ended up spending the next three days hanging out together. That evening, we went to dinner with Katherine at a bookstore called Another Country where we ate delicious food, played Boggle, and drank 2&euro; beers.
+
+The highlight of Berlin, and arguably my whole trip, was hanging out with the three of them on Saturday. We explored the East Side Gallery (where we saw amazing murals and graffiti), wandered around Tempelhof (where we watched a [Jugger][1] tournament), ate the most amazing goulash of all time, and went dancing. I went to bed smiling and woke up glowing.
+
+![Group Goulash]({{ page.image_url }}/goulash_group.jpg)
+
+The next day was wonderful as well, and we added a couple new friends to our group who Katherine knows from Uni. Kier, Sally, and the rest of us spent Sunday night drinking wine, talking, and playing MindSnacks on my phone.
+
+I feel incredibly lucky to have made such validating and wonderful new friendships and to have strengthened existing ones. I can't imagine a better way to have finished my travels abroad.
+
+I miss all of you a ton already and hopefully our paths will cross again sooner rather than later.
+
+[1]: http://en.wikipedia.org/wiki/Jugger (Jugger on Wikipedia)
