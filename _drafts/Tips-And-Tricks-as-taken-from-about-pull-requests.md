@@ -1,0 +1,17 @@
+# Git Tips and Tricks
+## Maintaining a clean commit history
+Lets say you're working on a feature and during its development you pushed some commits with messages like 'Removed trailing whitespace' or 'Added additional logging'. When you're merging this into the shared strand, it clutters the commit history to have to filter through commits without useful content. Worse, if you're looking for where a specific feature got added (maybe so you can see if doing so introduced a bug), that information might be scattered across a few commit messages.
+
+To keep the commit history clean, you can re-commit your changes with commit messages clearly explaining each stage of the process. To do this, make sure your branch doesn't need to be rebased onto the shared strand and then check out the shared strand. Then do the following:
+1. git checkout -b FEATURE_NAME-CLEAN. this creates a new branch off of the shared strand without any of your changes
+2. git merge FEATURE_NAME --no-commit --squash. This merges in all the changes from your feature branch, but doesn't create a commit for the merge AND puts the branch in a state that mimics you having made all the changes at once without committing.
+3. git add -p. This gives you an opportunity to stage parts of files for commit. If you first made a change to abstract some lines of code into a function and then added some new logic, it probably makes sense to commit these separately. git add -p gives you a way to do that. I use the GUI Sourcetree for this since I find it much easier to do with a rich visual interface.
+
+Once you're all done, push that branch to the remote, submit a pull request and BOOM, you have a pull request with a useful and readable commit history.
+
+## Rebasing
+When you rebase, you are actually creating a new branch. Let's say you've been working on branch B, which you branched off of branch A. You've made three commits on branch B but in the meantime, branch A has had a couple commits merged in as your co-workers have merged in their features. When you rebase branch B onto branch A, you create a copy of branch B with a new base (re-base). The result is a branch B'. In your local repository it looks like you're on the same branch, but it's actually a new branch with new commits. Therefore, if you push it to your remote (origin/branchB) you'll end up with multiple copies of the same commit.
+
+Technically you shouldn't rebase anything that's been made public. However, if you're 100% sure no one has branched off it, you can delete the branch on the remote (origin/branchB) and then push your rebased local branch to a branch with the same name (git push origin branchB), effectively replacing the remote branch with a new one that has a new base (branch B').
+
+The other thing to know about rebasing is that if you're rebasing onto branch A, which has two new commits on it, it applies each of those commits one at a time during the rebase process, forcing you to resolve any conflicts that arise at each step. As a result, you can end up resolving the same conflict over and over. I haven't figured out a way to handle this gracefully, so my advice is to rebase often. This keeps the number of commits and conflicts to a minimum at any given time.
