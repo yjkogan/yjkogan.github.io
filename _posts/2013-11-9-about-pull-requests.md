@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "About Pull Requests"
+date:   2013-11-09 03:00:00
+categories: coding pullrequests
+image_url: ./
+excerpt: Pull requests are a fantastic tool for collaborating on a coding project. My aim in this post is to describe the experiences that have led me to love pull requests in the hope of inspiring more people to use them.
+---
+
 #Pull Requests: Witty Sub-Title
 
 Pull requests are a fantastic tool for collaborating on a coding project. A great starting point is a video called ["How Github uses Github to build Github"](http://www.youtube.com/watch?v=qyz3jkOBbQY), which my friend [Sidd](https://twitter.com/sidd) showed me a while back. My aim in this post is to describe the experiences that have led me to love pull requests in the hope of inspiring more people to use them. At a high level, pull requests are great for:
