@@ -3,7 +3,7 @@ layout: post
 title:  "From Taipei to Hualien"
 date:   2013-09-04 22:00:00
 categories: travel taiwan
-image_url: /assets/2013-09-04
+image_url: /travel/assets/2013-09-04
 ---
 
 It's been a busy few days. The good news is that it's been surprisingly social, but not in the ways I expected this trip to be.

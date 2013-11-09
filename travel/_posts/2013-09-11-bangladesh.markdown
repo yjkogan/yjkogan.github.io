@@ -3,7 +3,7 @@ layout: post
 title:  "Taking Photos in Dhaka"
 date:   2013-09-11 15:00:00
 categories: travel dhaka
-image_url: /assets/2013-09-11
+image_url: /travel/assets/2013-09-11
 ---
 
 I've been in Dhaka for about 48 hours and I've taken exactly two pictures of the city, way fewer than I took in either Taipei or Shanghai. This is partly because I've been taking it easy and haven't explored the city much, but it's also because I'm having an internal conflict about when it's appropriate to take pictures.

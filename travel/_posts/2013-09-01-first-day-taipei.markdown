@@ -3,7 +3,7 @@ layout: post
 title:  "First Day in Taipei"
 date:   2013-09-01 22:00:00
 categories: travel taipei
-image_url: /assets/2013-09-01
+image_url: /travel/assets/2013-09-01
 ---
 
 Today was my first day in Taipei! I don't think it's hit me yet that I'm going to be traveling for the better part of a month.

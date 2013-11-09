@@ -3,7 +3,7 @@ layout: post
 title:  "Taroko Gorge"
 date:   2013-09-05 23:30:00
 categories: travel taiwan
-image_url: /assets/2013-09-05
+image_url: /travel/assets/2013-09-05
 ---
 
 Today was the stereotypical day I was hoping to have when I planned a trip alone. I rode on the back of a scooter with the wind in my face, hiked into a cave with water pooring down from the ceiling, and saw Taiwan's incredible coastline.

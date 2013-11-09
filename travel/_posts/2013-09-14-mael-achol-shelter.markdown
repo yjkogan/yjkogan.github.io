@@ -3,7 +3,7 @@ layout: post
 title:  "Maer Achol Shelter"
 date:   2013-09-14 13:00:00
 categories: travel dhaka
-image_url: /assets/2013-09-14
+image_url: /travel/assets/2013-09-14
 ---
 
 Yesterday was the most memorable day of my trip so far. We had an incredible time exploring the city with a friend of a friend who lives here (a "franger": a friend who is also a stranger), but the day was punctuated by a visit to a shelter for "street children" in the Mirpur neighborhood of Dhaka.

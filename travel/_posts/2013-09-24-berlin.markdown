@@ -3,7 +3,7 @@ layout: post
 title:  "Ich bin ein Berliner"
 date:   2013-09-24 03:00:00
 categories: travel berlin
-image_url: /assets/2013-09-24
+image_url: /travel/assets/2013-09-24
 ---
 
 Berlin is an incredible city, made all the better by the incredible friendships I've experienced here. When I first got here, I was having a bit of a hard time. I've been gone from home for a long time and since I'm an extrovert, being alone for a while can be tough. I missed the loving company of my friends and family back home.

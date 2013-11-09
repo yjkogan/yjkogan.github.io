@@ -1,0 +1,15 @@
+---
+layout: default
+title: Obsolete Output
+---
+<div id="home">
+  <h1>Coding Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% if post.categories contains 'coding' %}
+        <li><span>{{ post.date | date_to_string }}</span> &rarr; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        <p>{{ post.excerpt }}</p>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
