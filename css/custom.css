@@ -6,6 +6,14 @@
     float: right;
 }
 
+.post-topic {
+    margin-left: .5em;
+    padding: .2em .5em;
+    border-left: 1px solid #0069ba;
+    border-right: 1px solid #0069ba;
+    border-radius: .3em;
+}
+
 #disqus_thread {
     border: 1px black solid;
     padding: 15px 15px 15px 15px;
