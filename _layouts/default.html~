@@ -10,37 +10,45 @@
         <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="/css/custom.css">
     </head>
     <body>
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
+      <!-- HEADER -->
+      <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/yjkogan">View on GitHub</a>
 
-                {{ content }}
+          <a href="/"><h1 id="project_title">{{ site.name }}</h1></a>
+          <h2 id="project_tagline"></h2>
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- /container -->
+        </header>
+      </div>
+      <div id="main_content_wrap" class="outer">
+	<section id="main_content" class="inner">
+	  <div id="post-topics">
+	    <span><strong>Posts by Topic:</strong></span>
+	    <span class="post-topic"><a href="/coding">Coding</a></span>
+	    <span class="post-topic"><a href="/travel">Travel</a></span>
+	  </div>
+	  {{ content }}
+	</section>
+      </div>
+
+      <div class="outer" id="footer_wrap">
+        <footer class="inner">
+          <p class="footer_left">
+            Yonatan Kogan<br />
+            Software Engineer at Optimizely<br />
+            yonatan (at) yonatankogan (dot) com
+          </p>
+          <p class="footer_right">
+            <a id="github_link" href="http://github.com/yjkogan/">github.com/yjkogan</a><br />
+            <a href="http://twitter.com/yjkogan/">twitter.com/yjkogan</a><br />
+          </p>
+        </footer>
+      </div>
 
     </body>
 </html>
