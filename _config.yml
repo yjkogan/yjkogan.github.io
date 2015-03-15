@@ -2,4 +2,4 @@ name: Obsolete Output
 safe: true
 lsi: false
 markdown: redcarpet
-pygments: true
+highlighter: pygments
